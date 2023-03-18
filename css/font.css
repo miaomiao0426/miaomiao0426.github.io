@@ -1,0 +1,24 @@
+/* font.css */
+@font-face {
+  font-family: 'iconfont';  /* Project id 3961498 */
+  src: url('//at.alicdn.com/t/c/font_3961498_tpl3ib7vof9.woff2?t=1679142696734') format('woff2'),
+       url('//at.alicdn.com/t/c/font_3961498_tpl3ib7vof9.woff?t=1679142696734') format('woff'),
+       url('//at.alicdn.com/t/c/font_3961498_tpl3ib7vof9.ttf?t=1679142696734') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px; /* 字体大小自行修改 */
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+  content: "\ea0b";
+  color: balck; /* 图标颜色需要自行修改 */
+}
+
+/*
+ 此处省略项目中其他字体代码
+*/
